@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {              
+    background-color: #f9f9f9;
+}
+
+table {         
+    border-collapse: collapse; 
+    border: none;             
+}
+
+#header-row {
+    background-color: black;
+}
+
+#logo {
+    color: #b2c629;
+    font-size: 40px;
+    padding-left: 40px;
+    font-weight: bold;
+    width: 300px; 
+}
+
+#nav-bar {
+    background-color:#2B2B2B;
+    padding: 15px 25px;
+    width: fit-content;
+    margin: 20px auto;   
+}
+
+#nav-bar td {
+    padding: 17px 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+#main-row {
+    background-color: #b2c629;
+}
+
+#content-table{
+    margin: 15px 25px;
+}
+
+#content-title {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#content-text {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#content-image {
+    margin-right: 30px;
+    margin-left: 200px;
+    border: 2px solid white;   
+    padding: 3px;
+    height: 274px;
+    width: auto;
+}
+
+#row3 td {
+    vertical-align: top;
+    width: 33.33%; 
+    padding: 15px ;
+}
+
+.feature-img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 5px;
+    border: 1px solid #2B2B2B;
+    padding: 2px;
+}
+
+.feature-title {
+    display: inline;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+}
+
+#row3 td table tr:last-child td {
+    text-align: right ;
+}
+
+#row3 td table tr:last-child td a {
+    padding: 8px 20px;
+    background-color: #b2c629;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+#row4 {
+    background-color: #b2c629;
+    height: 50px;
+}
+
+#row4 td {
+    font-size: 35px;
+    text-align: justify;
+    text-indent: 30px;
+    font-weight: bold;
+}
